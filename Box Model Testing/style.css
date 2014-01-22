@@ -1,0 +1,1 @@
+#container {	border: 1px solid #000;	width: 530px;	background-color: #ccc;}#container > h1 {	width: 300px;	border: 1px solid #f00;	float: right;}#firstFace {	width: 200px;	float: left;}.clear {	clear: both;}
