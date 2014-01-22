@@ -1,0 +1,55 @@
+body {
+
+}
+
+#container {
+	width: 350px;
+}
+
+table, th, td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding-left: 3px;
+}
+
+table {
+	width: 100%;
+}
+
+tr {
+	background-color: #ccc;
+}
+
+.headRow {
+	background-color: #aaa;
+	font-family: Verdana;
+}
+
+tr:hover {
+	background-color: #070;
+}
+
+.headRow:hover, .ageSum > tr:hover {
+	background-color: #900;
+}
+
+tr {
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+}
+
+
+
+footer {
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+	font-family: Verdana;
+	margin-top: 3px;
+}
