@@ -1,0 +1,72 @@
+table {
+	border-collapse: collapse;
+}
+
+td {
+	width: 70px;
+	height: 90px;
+	padding: 0px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #ccc;
+	border: 1px solid #000;
+	max-width: 70px;
+}
+
+table p {
+	margin: 0px;
+	/*border: 1px solid black;*/
+}
+
+.atomNumber {
+	display: inline-block;
+	margin-left: 2px;
+}
+
+.atomWeight {
+	display: inline-block;
+	float: right;
+	margin-right: 2px;
+}
+
+.atomShortName {
+	font-size: 28px;
+	text-align: center;
+	font-weight: bolder;
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+
+.atomFullName {
+	text-align: center;
+	font-size: 90%;
+}
+
+.colSpanner {
+	border: none;
+	background: none;
+}
+
+#emptyRow td {
+	height: 15px;
+}
+
+.alkaliMetal {
+	background-color: #cccccc;
+}
+
+.nonMetal {
+	background-color: aqua;
+}
+
+.alkaliEarthMetal {
+	background-color: green;
+}
+
+.otherMetal {
+	background-color: fuchsia;
+}
+
+.nobleGas {
+	background-color: #bc8f8f;
+}
