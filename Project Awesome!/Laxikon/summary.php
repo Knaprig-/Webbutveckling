@@ -79,7 +79,7 @@ if($pdo){
 		{
 			echo "
 			<div class=\"submitBox\">
-				<form action=\"\" method=\"POST\">
+				<form action=\"summary.php?postId={$postId}\" method=\"POST\">
 					<textarea name=\"comCont\"></textarea>
 					<input type=\"submit\" value=\"Post comment\">
 				</form>

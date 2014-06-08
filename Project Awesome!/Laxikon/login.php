@@ -96,7 +96,7 @@ if ($PDO){
 
 	?>
 	<div id="formContainer">
-	<form id="loginForm" action="" method="POST">
+	<form id="loginForm" action="login.php" method="POST">
 		<p>
 			<label for="nameField">Username:</label>
 			<input type="text" name="nameField">

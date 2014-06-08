@@ -18,7 +18,7 @@
 		</ul>
 	</nav>
 	<div id="searchBox">
-		<form id="searchForm" action="" method="GET">
+		<form id="searchForm" action="index.php" method="GET">
 		<p>
 			<input id="searchField" type="text" name="searchField">
 			<input id="searchButton" type="submit" value="Search for summaries!">
